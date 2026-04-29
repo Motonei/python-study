@@ -16,11 +16,13 @@ trainees[1][1].insert(1,'mike')
 # 5. Change the value of 2 to 8
 trainees[1][0]=8
 print(trainees)
+
 # 6. Remove John and Mary from the list.
 trainees.remove('John')
 
 print(trainees)
 trainees[0][1].pop()
+print(trainees)
 # 7. Using a function, determine the length of the list
 print(len(trainees))
 
